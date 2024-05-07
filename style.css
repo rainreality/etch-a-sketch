@@ -1,0 +1,25 @@
+* {
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  #container {
+    width: 402px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pixel {
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border: none;
+  }  
